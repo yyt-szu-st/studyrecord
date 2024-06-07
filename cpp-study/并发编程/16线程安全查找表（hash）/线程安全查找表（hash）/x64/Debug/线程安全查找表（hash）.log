@@ -1,0 +1,26 @@
+﻿  线程安全查找表（hash）.cpp
+C:\Users\Lenovo\source\repos\线程安全查找表（hash）\线程安全查找表（hash）\ThreadSafeLookUpTable.h(41,35): error C2665: “std::shared_lock<std::mutex>::shared_lock”: 没有重载函数可以转换所有参数类型
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\shared_mutex(225,26): message : 可能是“std::shared_lock<std::mutex>::shared_lock(std::mutex &)”
+C:\Users\Lenovo\source\repos\线程安全查找表（hash）\线程安全查找表（hash）\ThreadSafeLookUpTable.h(41,35): message : “std::shared_lock<std::mutex>::shared_lock(std::mutex &)”: 无法将参数 1 从“std::shared_mutex”转换为“std::mutex &”
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\shared_mutex(246,26): message : 或    “std::shared_lock<std::mutex>::shared_lock(std::mutex &,const std::chrono::time_point<_Clock,_Duration> &)”
+C:\Users\Lenovo\source\repos\线程安全查找表（hash）\线程安全查找表（hash）\ThreadSafeLookUpTable.h(41,35): message : “std::shared_lock<std::mutex>::shared_lock(std::mutex &,const std::chrono::time_point<_Clock,_Duration> &)”: 应输入 2 个参数，却提供了 1 个
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\shared_mutex(240,26): message : 或    “std::shared_lock<std::mutex>::shared_lock(std::mutex &,const std::chrono::duration<_Rep2,_Period2> &)”
+C:\Users\Lenovo\source\repos\线程安全查找表（hash）\线程安全查找表（hash）\ThreadSafeLookUpTable.h(41,35): message : “std::shared_lock<std::mutex>::shared_lock(std::mutex &,const std::chrono::duration<_Rep2,_Period2> &)”: 应输入 2 个参数，却提供了 1 个
+C:\Users\Lenovo\source\repos\线程安全查找表（hash）\线程安全查找表（hash）\ThreadSafeLookUpTable.h(41,35): message : 尝试匹配参数列表“(std::shared_mutex)”时
+C:\Users\Lenovo\source\repos\线程安全查找表（hash）\线程安全查找表（hash）\ThreadSafeLookUpTable.h(39,9): message : 在编译 类 模板 成员函数“Value threadsafe_lookup_table<int,Value,std::hash<int>>::bucket_type::value_for(const Key &,const Value &)”时
+          with
+          [
+              Value=std::shared_ptr<MyClass>,
+              Key=int
+          ]
+C:\Users\Lenovo\source\repos\线程安全查找表（hash）\线程安全查找表（hash）\ThreadSafeLookUpTable.h(94,3): message : 请参阅 "threadsafe_lookup_table<int,std::shared_ptr<MyClass>,std::hash<int>>::value_for" 中对 "threadsafe_lookup_table<int,std::shared_ptr<MyClass>,std::hash<int>>::bucket_type::value_for" 的第一个引用
+C:\Users\Lenovo\source\repos\线程安全查找表（hash）\线程安全查找表（hash）\线程安全查找表（hash）.cpp(26,27): message : 请参阅 "TestThreadSafeHash::<lambda_2>::operator ()" 中对 "threadsafe_lookup_table<int,std::shared_ptr<MyClass>,std::hash<int>>::value_for" 的第一个引用
+C:\Users\Lenovo\source\repos\线程安全查找表（hash）\线程安全查找表（hash）\ThreadSafeLookUpTable.h(112,1): message : 查看对正在编译的 类 模板 实例化“threadsafe_lookup_table<int,std::shared_ptr<MyClass>,std::hash<int>>::bucket_type”的引用
+C:\Users\Lenovo\source\repos\线程安全查找表（hash）\线程安全查找表（hash）\ThreadSafeLookUpTable.h(107,23): message : 在编译 类 模板 成员函数“std::map<Key,Value,std::less<int>,std::allocator<std::pair<const Key,Value>>> threadsafe_lookup_table<Key,Value,std::hash<int>>::get_map(void)”时
+          with
+          [
+              Key=int,
+              Value=std::shared_ptr<MyClass>
+          ]
+C:\Users\Lenovo\source\repos\线程安全查找表（hash）\线程安全查找表（hash）\线程安全查找表（hash）.cpp(50,19): message : 请参阅 "TestThreadSafeHash" 中对 "threadsafe_lookup_table<int,std::shared_ptr<MyClass>,std::hash<int>>::get_map" 的第一个引用
+C:\Users\Lenovo\source\repos\线程安全查找表（hash）\线程安全查找表（hash）\线程安全查找表（hash）.cpp(15,60): message : 查看对正在编译的 类 模板 实例化“threadsafe_lookup_table<int,std::shared_ptr<MyClass>,std::hash<int>>”的引用
