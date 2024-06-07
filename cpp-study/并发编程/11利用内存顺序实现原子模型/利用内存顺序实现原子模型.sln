@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "利用内存顺序实现原子模型", "利用内存顺序实现原子模型\利用内存顺序实现原子模型.vcxproj", "{00A6012C-85D4-4815-9AC7-4BE103DFD0B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00A6012C-85D4-4815-9AC7-4BE103DFD0B8}.Debug|x64.ActiveCfg = Debug|x64
+		{00A6012C-85D4-4815-9AC7-4BE103DFD0B8}.Debug|x64.Build.0 = Debug|x64
+		{00A6012C-85D4-4815-9AC7-4BE103DFD0B8}.Debug|x86.ActiveCfg = Debug|Win32
+		{00A6012C-85D4-4815-9AC7-4BE103DFD0B8}.Debug|x86.Build.0 = Debug|Win32
+		{00A6012C-85D4-4815-9AC7-4BE103DFD0B8}.Release|x64.ActiveCfg = Release|x64
+		{00A6012C-85D4-4815-9AC7-4BE103DFD0B8}.Release|x64.Build.0 = Release|x64
+		{00A6012C-85D4-4815-9AC7-4BE103DFD0B8}.Release|x86.ActiveCfg = Release|Win32
+		{00A6012C-85D4-4815-9AC7-4BE103DFD0B8}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E3D1E8D-0B55-4930-8B47-A2741D1C7046}
+	EndGlobalSection
+EndGlobal
