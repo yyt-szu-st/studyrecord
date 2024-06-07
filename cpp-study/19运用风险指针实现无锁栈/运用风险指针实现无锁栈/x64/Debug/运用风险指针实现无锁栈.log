@@ -1,0 +1,3 @@
+﻿  运用风险指针实现无锁栈.cpp
+运用风险指针实现无锁栈.obj : error LNK2001: 无法解析的外部符号 "struct hazard_pointer * hazard_pointers" (?hazard_pointers@@3PAUhazard_pointer@@A)
+C:\Users\Administrator\source\repos\运用风险指针实现无锁栈\x64\Debug\运用风险指针实现无锁栈.exe : fatal error LNK1120: 1 个无法解析的外部命令
