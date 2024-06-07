@@ -1,0 +1,16 @@
+﻿  Concurrency线程所属权管理.cpp
+C:\Users\Lenovo\source\repos\Concurrency线程所属权管理\Concurrency线程所属权管理.cpp(188,90): warning C4244: “参数”: 从“__int64”转换到“T”，可能丢失数据
+          with
+          [
+              T=long
+          ]
+C:\Users\Lenovo\source\repos\Concurrency线程所属权管理\Concurrency线程所属权管理.cpp(154,47): warning C4244: “初始化”: 从“__int64”转换到“unsigned long”，可能丢失数据
+C:\Users\Lenovo\source\repos\Concurrency线程所属权管理\Concurrency线程所属权管理.cpp(188,11): message : 查看对正在编译的函数 模板 实例化“T parallel_accumulate<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,long>(Iterator,Iterator,T)”的引用
+          with
+          [
+              T=long,
+              _Ty=int,
+              Iterator=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int>>>
+          ]
+C:\Users\Lenovo\source\repos\Concurrency线程所属权管理\Concurrency线程所属权管理.cpp(154,32): warning C4244: “初始化”: 从“__int64”转换到“const unsigned long”，可能丢失数据
+  Concurrency线程所属权管理.vcxproj -> C:\Users\Lenovo\source\repos\Concurrency线程所属权管理\x64\Debug\Concurrency线程所属权管理.exe

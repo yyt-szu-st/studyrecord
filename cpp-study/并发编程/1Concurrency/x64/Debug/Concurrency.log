@@ -1,0 +1,4 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(Concurrency.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  Concurrency.cpp
+C:\Users\Lenovo\source\repos\Concurrency\Concurrency.cpp(53,28): warning C4101: “e”: 未引用的局部变量
+  Concurrency.vcxproj -> C:\Users\Lenovo\source\repos\Concurrency\x64\Debug\Concurrency线程的基本使用.exe
